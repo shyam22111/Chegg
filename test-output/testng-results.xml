@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-22T10:53:42 IST" name="Default suite" finished-at="2023-04-22T11:00:22 IST" duration-ms="399373">
+  <suite started-at="2023-04-22T10:55:13 IST" name="Default suite" finished-at="2023-04-22T11:52:05 IST" duration-ms="3411965">
     <groups>
     </groups>
-    <test started-at="2023-04-22T10:53:42 IST" name="Default test" finished-at="2023-04-22T11:00:22 IST" duration-ms="399373">
+    <test started-at="2023-04-22T10:55:13 IST" name="Default test" finished-at="2023-04-22T11:52:05 IST" duration-ms="3411965">
       <class name="Automate">
-        <test-method signature="main()[pri:0, instance:Automate@212b5695]" started-at="2023-04-22T10:53:42 IST" name="main" finished-at="2023-04-22T11:00:22 IST" duration-ms="399300" status="FAIL">
+        <test-method signature="main()[pri:0, instance:Automate@212b5695]" started-at="2023-04-22T10:55:13 IST" name="main" finished-at="2023-04-22T11:52:03 IST" duration-ms="3410031" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -16,8 +16,8 @@ from unknown error: web view not found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-FJGHUJB', ip: '192.168.43.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\shyam\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f532af6e2e5045f1c0cf4cb1a3a04e42
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\shyam\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56656}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e05164d293f8cabba1da88ec65be860
 *** Element info: {Using=xpath, value=//button[@aria-keyshortcuts='k']}]]>
             </message>
             <full-stacktrace>
@@ -27,8 +27,8 @@ from unknown error: web view not found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-FJGHUJB', ip: '192.168.43.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\shyam\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f532af6e2e5045f1c0cf4cb1a3a04e42
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\shyam\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56656}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e05164d293f8cabba1da88ec65be860
 *** Element info: {Using=xpath, value=//button[@aria-keyshortcuts='k']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
