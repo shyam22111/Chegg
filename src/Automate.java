@@ -40,7 +40,7 @@ public class Automate {
 		driver.findElement(By.xpath("//button[@type='button']")).click();
 		
 		
-		for( i=0; i< 350; i++) {
+		for( i=0; i< 3500; i++) {
 			
 			Thread.sleep(120000);
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
